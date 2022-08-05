@@ -1,0 +1,13 @@
+title 0.6: Uusi muistiinpano
+
+note over selain
+Kun painetaan Save ajetaan spa.js koodissa oleva javascript 
+funktio form.onsubmit. Estetään perustoiminto e.preventDefault().
+Lisätään notes taulukkoon uusi note ja piirretään notet 
+uudestaan kutsumalla redrawNotes funktiota
+end note
+
+selain->palvelin: HTTP POST 
+https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: JSON vastaus {"message":"note created"}
+
